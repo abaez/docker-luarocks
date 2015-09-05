@@ -1,4 +1,4 @@
-FROM abaez/lua
+FROM abaez/lua:5.1
 
 MAINTAINER [Alejandro Baez](https://twitter.com/a_baez)
 
