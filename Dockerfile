@@ -16,9 +16,9 @@ RUN tar xvf $LUAROCKS_INSTALL.tar.gz  && \
 WORKDIR $TMP_LOC
 
 RUN ./configure \
-  --lua-version=$LUA_MAJOR_VERSION \
-  --prefix=/usr/local \
-  --with-lua=/usr/local
+  --with-lua=$WITH_LUA \
+  --with-lua-include=$LUA_INCLUDE \
+  --with-lua-lib=$LUA_LIB
 
 RUN make build
 
