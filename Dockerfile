@@ -1,4 +1,4 @@
-FROM abaez/lua
+FROM abaez/openresty
 
 MAINTAINER [Alejandro Baez](https://twitter.com/a_baez)
 
