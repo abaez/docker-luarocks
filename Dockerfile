@@ -2,9 +2,9 @@ FROM abaez/lua:5.1
 
 MAINTAINER [Alejandro Baez](https://twitter.com/a_baez)
 
-ENV LUAROCKS_VERSION 2.2.2
+ENV LUAROCKS_VERSION 2.3.0
 ENV LUAROCKS_INSTALL luarocks-$LUAROCKS_VERSION
-ENV TMP_LOC /opt/luarocks
+ENV TMP_LOC /tmp/luarocks
 
 # Build Luarocks
 RUN curl -O http://keplerproject.github.io/luarocks/releases/luarocks-$LUAROCKS_VERSION.tar.gz
